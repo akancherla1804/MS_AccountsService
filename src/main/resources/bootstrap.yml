@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: accounts-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:7071/eureka/
+server:
+  context-path: /account
+  port: 7073
